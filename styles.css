@@ -148,6 +148,9 @@ main{padding:0 16px 20px;width:100%;max-width:100%;margin:0 auto}
   .nav-toggle{
     display:flex;
     margin-left:auto;
+    order:1;
+    align-self:flex-end;
+    z-index:22;
   }
   .nav{
     display:none;
@@ -165,6 +168,7 @@ main{padding:0 16px 20px;width:100%;max-width:100%;margin:0 auto}
     background:#ffffff;
     border:1px solid rgba(0,0,0,0.08);
     box-shadow:0 18px 40px rgba(0,0,0,0.12);
+    z-index:21;
   }
   .nav.open{
     display:flex;
