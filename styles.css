@@ -75,9 +75,9 @@ body{
   border-radius:2px;
   transition:transform .2s ease, opacity .2s ease;
 }
-.nav-toggle.open .bar:nth-child(1){transform:translateY(6px) rotate(45deg);}
-.nav-toggle.open .bar:nth-child(2){opacity:0;}
-.nav-toggle.open .bar:nth-child(3){transform:translateY(-6px) rotate(-45deg);}
+.nav-toggle.open .bar:nth-child(1){transform:none;}
+.nav-toggle.open .bar:nth-child(2){opacity:1;}
+.nav-toggle.open .bar:nth-child(3){transform:none;}
 
 .nav.open{
   display:flex;
@@ -147,6 +147,7 @@ main{padding:0 16px 20px;width:100%;max-width:100%;margin:0 auto}
   }
   .nav-toggle{
     display:flex;
+    margin-left:auto;
   }
   .nav{
     display:none;
